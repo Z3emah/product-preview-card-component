@@ -2,7 +2,7 @@ body{
    margin: 0;
    height: 100vh;
    display: flex;
-   font-family: "montserrat", arial;
+   font-family: montserrat, arial;
    justify-content: center;
    align-items: center;
    background-color: antiquewhite;
@@ -41,14 +41,15 @@ body{
 
 .text-heading{
    color:hsl(212, 21%, 14%);
-   font-weight: 900;
+   font-weight: 700;
+   font-family: fraunces, arial;
    font-size: 29px;
-   width: 250px;
+   width: 200px;
    line-height: 30px;
    margin-top: 0px;
 }
 .text{
-   width: 230px;
+   width: 255px;
    line-height: 25px;
    color: hsl(228, 12%, 48%);
 }
@@ -62,6 +63,7 @@ body{
    background-color: transparent;
    color:  hsl(158, 36%, 37%);
    font-size: 30px;
+   font-family: fraunces;
    font-weight: 700;
    margin-right: 10px;
 }
@@ -71,8 +73,9 @@ body{
 .deleted-price{
    border: none;
    background-color: transparent;
-   color:  hsl(212, 21%, 14%);
-   font-size: 18px; 
+   color:  hsl(210, 2%, 63%);
+   font-size: 12px; 
+   font-weight: bold;
 }
 .cart-button{
    display: flex;
@@ -84,7 +87,7 @@ body{
    font-weight: 600;
    border: none;
    border-radius: 7px;
-   padding: 13px 78px;
+   padding: 13px 90px;
    margin-top: 18px;
 }
 .cart-button:hover{
@@ -115,6 +118,7 @@ body{
 
 .image-box{
    width: 350px;
+   height: 250px;
    padding-bottom: 0px;
    
 }
@@ -122,9 +126,7 @@ body{
    display: block;
    border-bottom-right-radius: 0px;
    border-bottom-left-radius: 0px;
-   border-top-right-radius: 10px;
-   
-   
+   border-top-right-radius: 10px;    
 }
 .second-box{
    display: flex;
@@ -132,29 +134,33 @@ body{
    border-bottom-left-radius: 10px;
    flex-direction: column;
    justify-content: center;
-   padding-left: 15px;
+   padding-left: 25px;
+   padding-right: 20px;
+   padding-top: 0px;
    width: 305px;
    border-top: none;
+   padding-bottom: 0px;
 }
 .text-heading{
    color:hsl(212, 21%, 14%);
    font-weight: 900;
-   font-size: 25px;
-   width: 290px;
+   font-size: 30px;
+   width: 330px;
    line-height: 30px;
    margin-top: 0px;
    margin-bottom: 0px;
 }
 .text{
-   width: 292.58px;
-   line-height: 25px;
+   width: 295px;
+   line-height: 23px;
    color: hsl(228, 12%, 48%);
-   font-size: 16px;
+   font-size: 14px;
+   font-weight: 500;
 }
 .price-tag{
    display: flex;
    align-items: center;
-   margin-top: 20px;            
+   margin-top: 0px;            
 }
 .cart-button{
    display: flex;
@@ -166,7 +172,7 @@ body{
    font-weight: 600;
    border: none;
    border-radius: 7px;
-   padding: 15px 10px;
+   padding: 18px;
    margin-top: 20px;
 }
 }
